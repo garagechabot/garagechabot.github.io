@@ -20,3 +20,7 @@ table tr {
     text-align: center;
     border:1px solid black;
  }
+
+ input {
+   width:40px;
+ }
