@@ -10,8 +10,8 @@ function updateTime(e) {
     let minutesDebut = Number(tr.querySelector(".minutesDebut").value);
     let heureFin = Number(tr.querySelector(".heureFin").value);
     let minutesFin = Number(tr.querySelector(".minutesFin").value);
-    let hhmm = tr.querySelector(".hhmm");
-    let hh100e = tr.querySelector(".hh100e");
+    let hhmm = tr.querySelector(".hhmm span");
+    let hh100e = tr.querySelector(".hh100e span");
 
     /*console.log(heureDebut);
     console.log(minutesDebut);

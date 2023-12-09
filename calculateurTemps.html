@@ -12,14 +12,14 @@
         <tr>
             <th>Début</th>
             <th>Fin</th>
-            <th>Temps hh:mm</th>
-            <th>Temps 1/100e</th>
+            <th>Temps <span class="small">hh:mm</span></th>
+            <th>Temps <span class="small">1/100e</span></th>
         </tr>
         <tr class="timer">
             <td><input type="number" class="heureDebut" min="0" max="59"> : <input type="number" class="minutesDebut" min="0" max="59"></td>
             <td><input type="number" class="heureFin" min="0" max="59"> : <input type="number" class="minutesFin" min="0" max="59"></td>
-            <td><span class="hhmm">-</span></td>
-            <td><span class="hh100e">-</span></td>
+            <td class="hhmm"><span>-</span></td>
+            <td  class="hh100e"><span>-</span></td>
         </tr>
         <tr class="timer">
             <td><input type="number" class="heureDebut" min="0" max="59"> : <input type="number" class="minutesDebut" min="0" max="59"></td>
@@ -77,8 +77,8 @@
         </tr>        
         <tr class="total">
             <td colspan="2">Total</td>
-            <td><span class="hhmm" id="dureeTotale-hhmm">0:00</span></td>
-            <td><span class="hh100e" id="dureeTotale-hh100e">0:00</span></td>
+            <td class="hhmm"><span id="dureeTotale-hhmm">0:00</span></td>
+            <td class="hh100e"><span id="dureeTotale-hh100e">0:00</span></td>
         </tr>
     </table>
 </html>
