@@ -35,13 +35,13 @@ table tr {
  }
 
 .small {
-   font-size: 0.9em;
+   font-size: 0.5em;
  }
 
 
  /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
    input {
-      width:30px;
+      width:35px;
     }
  }
