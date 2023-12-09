@@ -23,6 +23,11 @@ table tr {
 
  input {
    width:40px;
+   font-size: 1.2em;
+ }
+
+ button {
+   font-size: 1.2em;
  }
 
  .hhmm, .hh100e {
@@ -37,6 +42,6 @@ table tr {
  /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
    input {
-      width:20px;
+      width:25px;
     }
  }
