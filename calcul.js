@@ -96,3 +96,22 @@ function updateTotal() {
     }
 }
 
+function resetCalculateur() {
+    console.log("reset");
+    let dureeTotalehhmm = document.getElementById("dureeTotale-hhmm");
+    let dureeTotalehh100e = document.getElementById("dureeTotale-hh100e");
+
+    let trs = document.querySelectorAll("tr.timer");
+    dureeTotale = 0;
+    trs.forEach(tr => {
+        tr.querySelector(".heureDebut").value = "";
+        tr.querySelector(".minutesDebut").value = "";
+        tr.querySelector(".heureFin").value = "";
+        tr.querySelector(".minutesFin").value = "";
+        tr.querySelector(".hhmm span").innerText = "-";
+        tr.querySelector(".hh100e span").innerText = "-"; 
+    }); 
+    dureeTotalehhmm.innerText = "0:00";
+    dureeTotalehh100e.innerText = "0:00";
+}
+
