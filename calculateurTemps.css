@@ -5,6 +5,10 @@ html, body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+main {
+    display:flex;
+}
+
 table {
    margin:10px; 
 }
@@ -43,5 +47,9 @@ table tr {
 @media screen and (max-width: 600px) {
    input {
       width:32px;
+    }
+
+    main {
+        flex-direction:columns;
     }
  }
