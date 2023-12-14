@@ -10,7 +10,11 @@ main {
 }
 
 table {
-   margin:10px; 
+    margin-top:10px; 
+    margin-bottom:20px; 
+    margin-left:10px; 
+    margin-tright:10px;
+    border: 2px solid black;
 }
 
 table tr {
