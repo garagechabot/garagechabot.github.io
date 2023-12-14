@@ -13,14 +13,12 @@ table {
     margin-top:10px; 
     margin-bottom:20px; 
     margin-left:10px; 
-    margin-tright:10px;
+    margin-right:30px;
     border: 2px solid black;
 }
 
 table tr {
     margin:10px;
-    padding:10px;
-    border:1px solid black;
     background-color: #dedcdc;
  }
 
