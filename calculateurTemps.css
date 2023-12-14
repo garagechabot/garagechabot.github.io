@@ -52,6 +52,6 @@ table tr {
     }
 
     main {
-        flex-direction:columns;
+        flex-direction:column;
     }
  }
