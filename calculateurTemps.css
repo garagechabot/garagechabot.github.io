@@ -44,6 +44,10 @@ table tr {
    font-size: 0.75em;
  }
 
+.gauche {
+   text-align:left;
+ }
+
 
  /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 60px) {
