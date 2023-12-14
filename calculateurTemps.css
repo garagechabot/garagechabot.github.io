@@ -46,7 +46,7 @@ table tr {
 
 
  /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
    input {
       width:32px;
     }
