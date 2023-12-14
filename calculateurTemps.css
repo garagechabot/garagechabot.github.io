@@ -61,6 +61,10 @@ table tr {
     main {
         flex-direction:column;
     }
+
+    .espacementG20 {
+        margin-left:0px;
+}
  }
 
 
