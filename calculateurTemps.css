@@ -46,12 +46,16 @@ table tr {
 
 
  /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 60px) {
    input {
       width:32px;
     }
+ }
 
+@media screen and (max-width: 800px) {
     main {
         flex-direction:column;
     }
  }
+
+
