@@ -7,6 +7,7 @@ html, body {
 
 main {
     display:flex;
+     gap: 10px;
 }
 
 table {
@@ -45,10 +46,6 @@ table tr {
    text-align:left;
  }
 
-.espacementG20 {
-    margin-left:20px;
-}
-
 
  /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 60px) {
@@ -61,10 +58,6 @@ table tr {
     main {
         flex-direction:column;
     }
-
-    .espacementG20 {
-        margin-left:0px;
-}
  }
 
 
